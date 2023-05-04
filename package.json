@@ -1,0 +1,46 @@
+{
+  "name": "repro-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "yarn check-types && next lint && yarn check-eslint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@types/node": "18.16.1",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "next": "13.3.1",
+    "next-i18next": "^13.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^7.0.8",
+    "@storybook/addon-essentials": "^7.0.8",
+    "@storybook/addon-interactions": "^7.0.8",
+    "@storybook/addon-links": "^7.0.8",
+    "@storybook/addon-mdx-gfm": "7.0.8",
+    "@storybook/blocks": "7.0.8",
+    "@storybook/nextjs": "7.0.8",
+    "@storybook/react": "^7.0.8",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "eslint-plugin-no-inline-styles": "^1.0.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-storybook": "^0.6.7",
+    "i18next": "^22.4.15",
+    "i18next-http-backend": "^2.0.2",
+    "prettier": "^2.8.4",
+    "react-i18next": "^12.2.2",
+    "storybook": "7.0.8",
+    "storybook-addon-next": "^1.8.0"
+  }
+}
